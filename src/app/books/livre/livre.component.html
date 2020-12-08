@@ -1,0 +1,11 @@
+<ul>
+<li>  livre num {{i}}: {{l.title}}  - {{l.date|date}}
+
+    <img [src]="m.cover">    <button type="button"  (click)="finalPrice"  [ngClass]="{'btn btn-success':l.reduction>0,
+    'badge-dark':!l.reduction<0}" >prix final</button>
+
+
+</li>
+
+
+</ul>
